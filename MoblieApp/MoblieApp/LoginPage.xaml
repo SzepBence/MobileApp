@@ -39,13 +39,13 @@
 
             <StackLayout VerticalOptions="FillAndExpand" Orientation="Horizontal">
 
-                <Label TextColor="White" 
-                       FontSize="16" Text="Elfelejtette jelszavát?" VerticalOptions="EndAndExpand" HorizontalOptions="StartAndExpand" 
-                       />
-                <Label TextColor="White" 
-                       FontSize="16" Text="Regisztráció"  VerticalOptions="EndAndExpand" 
-                       HorizontalOptions="EndAndExpand" 
-                       />
+                <!-- <Label TextColor="White"  -->
+                       <!-- FontSize="16" Text="Elfelejtette jelszavát?" VerticalOptions="EndAndExpand" HorizontalOptions="StartAndExpand"  -->
+                       <!-- /> -->
+                <!-- <Label TextColor="White"  -->
+                       <!-- FontSize="16" Text="Regisztráció"  VerticalOptions="EndAndExpand"  -->
+                       <!-- HorizontalOptions="EndAndExpand"  -->
+                       <!-- /> -->
             </StackLayout>
         </StackLayout>
     </Grid>
