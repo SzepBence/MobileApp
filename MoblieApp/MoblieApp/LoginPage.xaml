@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MoblieApp.LoginPage"
              Title="LoginPage"
-             BackgroundColor="Purple">
+             BackgroundColor="CadetBlue">
     <Grid>
         <StackLayout Margin="20">
 
@@ -13,7 +13,7 @@
             </StackLayout>
 
             <StackLayout>
-                <Label TextColor="Black" 
+                <Label TextColor="White" 
                        FontSize="16" Text="Felhasználónév"/>
                 <Grid Margin="0,5">
                     <Frame Opacity="0.3" BackgroundColor="White" CornerRadius="5"/>
