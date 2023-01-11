@@ -13,13 +13,16 @@ namespace EduTron.Data.Tables
         public int ID { get; set; }
         public string Name { get; set; }
         public string Password { get; set; }
-        public DateTime EntryDate { get; set; }
+        public int InstituteID { get; set; }
+        public string Email { get; set; }
 
-        public User(string Nev, string Jelszo)
+        public User(string Nev, string Jelszo,int OM_Azonosito,string email)
         {
             Name = Nev;
             Password = Jelszo;
-            EntryDate = DateTime.Now;
+            Email = email;
+            InstituteID = OM_Azonosito;
+
         }
 
     }
