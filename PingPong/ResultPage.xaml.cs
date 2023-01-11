@@ -35,10 +35,10 @@ public partial class ResultPage : ContentPage
 		User kivalasztott = (User)lstView.SelectedItem;
 		if(await DisplayAlert("Megerõsítés", "Biztos, hogy törölni kívánja az elemet?", "Igen", "Nem"))
 		{
-			if (App.Database.DeleteMatchData(kivalasztott))
+			if (App.Database.DeleteUserData(kivalasztott))
 			{
 				await DisplayAlert("Sikeres törlés!", "A törlés sikereült!", "OK");
-				App.Database.DeleteMatchData(kivalasztott);
+				App.Database.DeleteUserData(kivalasztott);
 				model.eredmenyek.Remove(kivalasztott);
 				lstView.ItemsSource = model.eredmenyek;
 			}
@@ -55,7 +55,7 @@ public partial class ResultPage : ContentPage
 		if (gomb.RotationX == 0)
 		{
 			gomb.RotateXTo(180);
-			model.eredmenyek = new ObservableCollection<User>(model.eredmenyek.OrderBy(x => x.Idopont).ToList());
+			model.eredmenyek = new ObservableCollection<User>(model.eredmenyek.OrderBy(x => x.).ToList());
 		}
 		else
 		{

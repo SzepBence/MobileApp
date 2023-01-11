@@ -1,4 +1,5 @@
-﻿namespace EduTron;
+﻿using EduTron.Data.Tables;
+namespace EduTron;
 
 public partial class MainPage : ContentPage
 {

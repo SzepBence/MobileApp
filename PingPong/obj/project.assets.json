@@ -68489,11 +68489,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\toth.bence\\Desktop\\EduTron\\PingPong\\EduTron.csproj",
+      "projectUniqueName": "C:\\Users\\toth.bence\\Source\\Repos\\SzepBence\\MobileApp\\PingPong\\EduTron.csproj",
       "projectName": "EduTron",
-      "projectPath": "C:\\Users\\toth.bence\\Desktop\\EduTron\\PingPong\\EduTron.csproj",
+      "projectPath": "C:\\Users\\toth.bence\\Source\\Repos\\SzepBence\\MobileApp\\PingPong\\EduTron.csproj",
       "packagesPath": "C:\\Users\\toth.bence\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\toth.bence\\Desktop\\EduTron\\PingPong\\obj\\",
+      "outputPath": "C:\\Users\\toth.bence\\Source\\Repos\\SzepBence\\MobileApp\\PingPong\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

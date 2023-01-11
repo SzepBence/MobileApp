@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f7OjAiNRhxMUM6gyf0rxL5q99DZ3D2UtU5J1JNGIC+WhSGQkB3ajB9gsWQzvF2QKP37mr3c84C4EzZcqh2iKfQ==",
+  "dgSpecHash": "SfTiT04o2Vy9wzcCoRjYgDoHdcB4LFU/mvYkascsX+hY7di4Vd6oHNe+ur6qRnz2JwRU5WKfggwq0pnH41kT1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\toth.bence\\Desktop\\EduTron\\PingPong\\EduTron.csproj",
+  "projectFilePath": "C:\\Users\\toth.bence\\Source\\Repos\\SzepBence\\MobileApp\\PingPong\\EduTron.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\toth.bence\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\toth.bence\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
