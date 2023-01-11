@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EduTron_Mobile.TestCreatePage"
+             Title="Teszt készítése">
+    <VerticalStackLayout>
+        <Label Text="Teszt neve" HorizontalOptions="StartAndExpand" TextColor="Black" FontSize="28"/>
+        <Entry x:Name="entTitle" WidthRequest="200" HorizontalOptions="StartAndExpand"/>
+        <Label Text="Kategória" HorizontalOptions="StartAndExpand" TextColor="Black" Margin="0,20,0,0" FontSize="24"/>
+        <Entry x:Name="entCategory" WidthRequest="200" HorizontalOptions="StartAndExpand"/>
+        <VerticalStackLayout Margin="0,20,0,0">
+            <Label Text="Kérdés" HorizontalOptions="StartAndExpand" TextColor="Black" FontSize="18"/>
+            <HorizontalStackLayout>
+                <Entry x:Name="entQ1" WidthRequest="200" HorizontalOptions="StartAndExpand"/>
+                <ImageButton x:Name="btnAddQuestion" WidthRequest="20" HeightRequest="20" Margin="10,0,0,0"/>
+            </HorizontalStackLayout>
+            <Label Text="Válaszok" HorizontalOptions="StartAndExpand" TextColor="Black" FontSize="18"/>
+            <HorizontalStackLayout>
+                <Entry x:Name="entA1" WidthRequest="200" HorizontalOptions="StartAndExpand"/>
+                <ImageButton x:Name="btnAddAnswer" WidthRequest="20" HeightRequest="20" Margin="10,0,0,0"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

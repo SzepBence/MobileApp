@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EduTron_Mobile.MainPage"
+             BackgroundColor="CadetBlue">
+
+    <ScrollView>
+        <VerticalStackLayout VerticalOptions="Start">
+            <Grid>
+                <StackLayout Margin="20">
+
+                    <StackLayout Margin="0,80">
+                        <Label FontSize="32" Text="Üdvözöljük" TextColor="White"/>
+                        <Label FontSize="16" Text="Jelentkezzen be a folytatáshoz" TextColor="White"/>
+                    </StackLayout>
+
+                    <StackLayout>
+                        <Label TextColor="White" 
+                       FontSize="16" Text="Felhasználónév"/>
+                        <Grid Margin="0,5">
+                            <Frame Opacity="0.3" BackgroundColor="White" CornerRadius="5"/>
+                            <Entry x:Name="entUser" BackgroundColor="Transparent"
+                           TextColor="Black" Margin="5,0"
+                           />
+
+                        </Grid>
+
+                        <Label TextColor="White" 
+                       FontSize="16" Text="Jelszó"/>
+                        <Grid Margin="0,5">
+                            <Frame Opacity="0.3" BackgroundColor="White" CornerRadius="5"/>
+                            <Entry x:Name="entPw" BackgroundColor="Transparent"
+                           TextColor="Black" Margin="5,0"
+                           IsPassword="True"/>
+
+                        </Grid>
+                    </StackLayout>
+
+                    <Button Margin="0,15,0,30" BackgroundColor="White"
+                    Text="Bejelentkezés" TextColor="Black" Clicked="Login_Clicked"/>
+
+                    <HorizontalStackLayout VerticalOptions="FillAndExpand">
+
+                        <Button TextColor="Gray"  BackgroundColor="White" 
+                         FontSize="16" Text="Belépés vendégként" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand" Margin="-10,10,5,0" Clicked="Guest_Clicked"
+                         />
+                        <Button TextColor="Gray" BackgroundColor="White"  
+                         FontSize="16" Text="Regisztráció" Margin="5,10,0,0"  VerticalOptions="EndAndExpand"  
+                         HorizontalOptions="EndAndExpand"
+                         Clicked="Registration_Clicked"
+                         />
+                    </HorizontalStackLayout>
+                </StackLayout>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
