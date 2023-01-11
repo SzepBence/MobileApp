@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\toth.bence\\Source\\Repos\\SzepBence\\MobileApp\\PingPong\\EduTron.csproj": {}
+    "C:\\Users\\szep.bence.laszlo\\Source\\Repos\\SzepBence\\MobileApp\\PingPong\\EduTron.csproj": {}
   },
   "projects": {
-    "C:\\Users\\toth.bence\\Source\\Repos\\SzepBence\\MobileApp\\PingPong\\EduTron.csproj": {
+    "C:\\Users\\szep.bence.laszlo\\Source\\Repos\\SzepBence\\MobileApp\\PingPong\\EduTron.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\toth.bence\\Source\\Repos\\SzepBence\\MobileApp\\PingPong\\EduTron.csproj",
+        "projectUniqueName": "C:\\Users\\szep.bence.laszlo\\Source\\Repos\\SzepBence\\MobileApp\\PingPong\\EduTron.csproj",
         "projectName": "EduTron",
-        "projectPath": "C:\\Users\\toth.bence\\Source\\Repos\\SzepBence\\MobileApp\\PingPong\\EduTron.csproj",
-        "packagesPath": "C:\\Users\\toth.bence\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\toth.bence\\Source\\Repos\\SzepBence\\MobileApp\\PingPong\\obj\\",
+        "projectPath": "C:\\Users\\szep.bence.laszlo\\Source\\Repos\\SzepBence\\MobileApp\\PingPong\\EduTron.csproj",
+        "packagesPath": "C:\\Users\\szep.bence.laszlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\szep.bence.laszlo\\Source\\Repos\\SzepBence\\MobileApp\\PingPong\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\toth.bence\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\szep.bence.laszlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

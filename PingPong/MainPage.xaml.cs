@@ -21,5 +21,10 @@ public partial class MainPage : ContentPage
 			DisplayAlert("Hiba!", "Minden mező megadása kötelező!", "OK");
 		}
 	}
+
+	private async void Guest_Clicked(object sender, EventArgs e)
+	{
+		await Navigation.PushAsync(new ResultPage());
+	}
 }
 
