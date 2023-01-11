@@ -1,1 +1,0 @@
-D:\BB\PingPong\PingPong\PingPong.csproj;x64
